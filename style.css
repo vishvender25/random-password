@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=Agbalumo&family=Pacifico&family=Poppins:ital,wght@0,400;1,200;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap');
+
+body{
+    font-family: Poppins;
+    background-color: #B6C4B6;
+}
+.container{
+    width: 100vw;
+    height: 20vh;
+    margin-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#password-value , #generate{
+    width: 200px;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+
+}
+
+#toggle{
+    padding: 0.5rem 1rem;
+    background-color: white;
+    border: 1px solid black;
+    border-left: none;
+    cursor: pointer;
+    margin-left: -5px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: #163020;
+}
+#generate{
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: #163020;
+    color: #EEF0E5;
+    font-weight: 600;
+}
+h1{
+    text-align: center;
+    font-size: xxx-large;
+    color: #304D30;
+}
+
+@media screen and (width < 494px) {
+   #password-value{
+    width: 50vw;
+    margin-left: 10vw;
+   }
+   #generate{
+    width: 60vw;
+    margin-left: 15vw;
+    margin-top: 1rem;
+   }
+    
+}
